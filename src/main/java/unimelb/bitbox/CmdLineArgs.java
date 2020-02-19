@@ -2,6 +2,13 @@ package unimelb.bitbox;
 
 import org.kohsuke.args4j.Option;
 
+/**
+ * A class for converting args from cmd.
+ *
+ * @author Jason Liu
+ * @version 1.0 initial version
+ */
+
 public class CmdLineArgs {
     @Option(required = true, name = "-c", usage = "Command")
     private String command;
@@ -27,7 +34,7 @@ public class CmdLineArgs {
         return peer;
     }
 
-    public String getIdentity(){
+    public String getIdentity() {
         return identity;
     }
 }

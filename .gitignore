@@ -1,2 +1,4 @@
 .idea/
+share/
+target/
 bitbox.iml
